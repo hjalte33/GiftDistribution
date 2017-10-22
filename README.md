@@ -5,6 +5,7 @@ Being a big family, the makeing of the list was often tedious and dificult, beca
 Also a cycle of only 2 people should be avoided since it again is not that much fun.
 
 Therefore I decided to make this small python script that creates a random list takeing care of all the family realtions and cycle lengths. 
+There is by 100% chance a better and nicer way of solveing this problem using linear algebra or something like that, but i dont care since trying by random seems to work just fine, so I im not fixing it when it's not broken. 
 
 The scripts needs an input file that contains a list of participants.
 Each line should contain name of a participant
@@ -22,12 +23,12 @@ carl S.
 henrik, alice ,bob
 
 ./output.csv
-Number of tries 1 
+Number of tries 4 
 The seed used for this solution is 0 
 Smallest cycle length for this solution is 5 
 
 alice gives a gift to henrik
-bob gives a gift to carl J.
-carl J. gives a gift to alice
+bob gives a gift to alice
+carl J. gives a gift to carl S.
 carl S. gives a gift to bob
-henrik gives a gift to carl S.
+henrik gives a gift to carl J.
