@@ -39,9 +39,20 @@ def main(argv):
         spamreader = csv.reader(csvfile, delimiter=',')
         giftGivers = []
         for _row in spamreader:
+
+            # clean whitespace at the ends.
             row = [s.strip() for s in _row]
+
             if row:  #check if theres actually any content
-                giftGivers.append(row)
+                # look at for seed in the list.
+                if row[0] == "seed":
+                    try:
+                        ran = random.Random(row[1])
+                        seed = row[1]
+                    except:
+                        pass
+                else:
+                    giftGivers.append(row)
 
     participants = [row[0] for row in giftGivers]
     solution = []
