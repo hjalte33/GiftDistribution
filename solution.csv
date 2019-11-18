@@ -1,9 +1,9 @@
-Number of tries 4 
-The seed used for this solution is 0 
+Number of tries 3 
+The seed used for this solution is 100 
 Smallest cycle length for this solution is 5 
 
 alice gives a gift to henrik
-bob gives a gift to alice
-carl J. gives a gift to carl S.
-carl S. gives a gift to bob
+bob gives a gift to carl S.
+carl J. gives a gift to bob
+carl S. gives a gift to alice
 henrik gives a gift to carl J.
