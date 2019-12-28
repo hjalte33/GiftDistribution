@@ -1,9 +1,9 @@
-Number of tries 2 
-The seed used for this solution is write anything here to change the outcome 
+Number of tries 6 
+The seed used for this solution is write anything here to act as seed 0897234lhtiu 
 Smallest cycle length for this solution is 5 
 
 alice gives a gift to henrik
 bob gives a gift to alice
-carl J. gives a gift to carl S.
-carl S. gives a gift to bob
-henrik gives a gift to carl J.
+carl gives a gift to bob
+niels gives a gift to carl
+henrik gives a gift to niels
